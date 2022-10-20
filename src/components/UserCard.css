@@ -1,0 +1,56 @@
+.card-container {
+  width: 400px;
+  height: 470px;
+  margin: 2rem auto;
+  background: linear-gradient(360deg, #365498 0%, #182848 100%);
+  color: white;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin: 1rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card p {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  background: linear-gradient(360deg, #365498 0%, #182848 100%);
+  color: wheat;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.name img {
+  border-radius: 50%;
+  width: 10a0px;
+}
+
+.desc div {
+  margin-bottom: 1rem;
+}
